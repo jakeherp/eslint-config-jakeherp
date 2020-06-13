@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/jacobherper/.nvm/versions/node/v12.16.3/bin/node /Users/jacobherper/.nvm/versions/node/v12.16.3/bin/yarn add --dev babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-react-hook eslint-plugin-react eslint-plugin-prettier eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-html eslint-plugin-flowtype eslint-import-resolver-typescript eslint-import-resolver-babel-module eslint-config-airbnb-typescript prettier-eslint prettier-eslint-cli prettier
+
+PATH: 
+  /Users/jacobherper/.nvm/versions/node/v12.16.3/bin:/usr/local/bin:/Users/jacobherper/.deno/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:./node_modules/.bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/eslint-plugin-react-hook: Not found
+      at Request.params.callback [as _callback] (/Users/jacobherper/.nvm/versions/node/v12.16.3/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/Users/jacobherper/.nvm/versions/node/v12.16.3/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:310:20)
+      at Request.<anonymous> (/Users/jacobherper/.nvm/versions/node/v12.16.3/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:310:20)
+      at IncomingMessage.<anonymous> (/Users/jacobherper/.nvm/versions/node/v12.16.3/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:416:28)
+      at IncomingMessage.emit (events.js:322:22)
+      at endReadableNT (_stream_readable.js:1187:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "eslint-config-jakeherp",
+    "version": "1.0.0",
+    "description": "My default ESLint and Prettier config.",
+    "keywords": [
+      "javascript",
+      "ecmascript",
+      "eslint",
+      "eslint-config",
+      "lint",
+      "linting",
+      "config",
+      "prettier"
+    ],
+    "main": "index.js",
+    "scripts": {
+      "lint": "eslint .",
+      "lint:fix": "eslint --fix"
+    },
+    "author": "Jacob Herper",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
